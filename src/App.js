@@ -1,11 +1,10 @@
 import React from "react";
-import Todo from "./5-useState-example-3";
-
+import Effect from "./1-useEffect";
 
 const  App = () => {
   return (
     <div className="container">
-      <Todo />
+      <Effect />
     </div>
   );
 }
