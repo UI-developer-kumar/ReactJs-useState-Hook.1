@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import { UserContextProvider } from './useContext/UseContext-Advance';
+// import { UserContextProvider } from './useContext/UseContext-Advance';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <UserContextProvider>
+  <>
     <App />
-  </UserContextProvider>
+  </>
 );
 
