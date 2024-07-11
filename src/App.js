@@ -1,10 +1,11 @@
 import React from "react";
-import Final from "./usememo/1-useMemo";
+import ParentComponent from "./useCallback&React.memo/1-useCallback&React.Memo";
+
 
 const  App = () => {
   return (
     <div className="container">
-      <Final />
+      <ParentComponent />
     </div>
   );
 }
